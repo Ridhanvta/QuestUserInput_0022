@@ -90,7 +90,9 @@ fun FormDataDiri(modifier: Modifier){
             // the button is enable when the user makes a selection
             enabled = textAlamat.isNotEmpty(),
             onClick = {
-
+                nama=textNama
+                jenis=textJK
+                alamat=textAlamat
             }
         ) { }
     }
